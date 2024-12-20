@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: tfm
+  datasource:
+    url: jdbc:postgresql://localhost:5432/music
+    username: postgres
+    password: root
+  jpa:
+    show-sql: true
